@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Sidebar */
+.sidebar {
+    width: 30%;
+    background: #1e293b;
+    color: white;
+    padding: 30px;
+}
+
+.sidebar h1 {
+    font-size: 28px;
+    margin-bottom: 5px;
+}
+
+.role {
+    color: #94a3b8;
+    margin-bottom: 20px;
+}
+
+.sidebar h2 {
+    margin-top: 25px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    border-bottom: 1px solid #334155;
+    padding-bottom: 5px;
+}
+
+.sidebar ul {
+    list-style: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 6px;
+    font-size: 14px;
+}
+
+/* Main Content */
+.content {
+    width: 70%;
+    padding: 40px;
+}
+
+.content h2 {
+    margin-bottom: 15px;
+    color: #1e293b;
+    border-bottom: 2px solid #1e293b;
+    padding-bottom: 5px;
+}
+
+.content section {
+    margin-bottom: 30px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+.job h3 {
+    font-size: 16px;
+    color: #0f172a;
+}
+
+.job span {
+    font-size: 13px;
+    color: gray;
+}
+
+.job ul {
+    margin-top: 8px;
+    padding-left: 18px;
+}
+
+.job ul li {
+    margin-bottom: 5px;
+    font-size: 14px;
+}
+
+
+ /* Education Section */
+
+.education {
+    margin-top: 20px;
+}
+
+.education h2 {
+    margin-bottom: 15px;
+    border-bottom: 2px solid rgba(12, 3, 3, 0.993);
+    padding-bottom: 5px;
+}
+
+.edu-item {
+    margin-bottom: 15px;
+}
+
+.edu-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edu-header h3 {
+    font-size: 14px;
+    font-weight: 600;
+    margin: 0;
+}
+
+.edu-year {
+    font-size: 12px;
+    color: #4e4f50;
+}
+
+.edu-school {
+    font-size: 13px;
+    color: #4e4f50;
+    margin-top: 4px;
+}
